@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#BCDBF3"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Manual"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="16dp"/>
+
+            <!-- Add more TextViews or other views for your manual content -->
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="Welcome to Travex! This user manual will guide you through the main features of our application to help you explore hidden gems in Malaysia and share your travel experiences with others."
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:text="1. Homepage:\n
+- Upon launching the app, you will be greeted with the homepage. Here, you can see the categories of places available for exploration.\n
+- Use the search function to find specific destinations or activities based on your preferences.\n
+- Scroll through the list of places to discover hidden gems across Malaysia.">
+            </TextView>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:text="2. Place Details Page:\n
+- When you find a place that interests you, click on the place card to view its details.\n
+- The details page will provide you with information about the place, including descriptions, photos, and location.\n
+- If you want to see the location of the place, click on the location link to open it in Google Maps.
+">
+            </TextView>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:text="3. Review Page:\n
+- To see what others have to say about the place, click on the add button on the Homepage.\n
+- This will take you to the review page, where you can find a list of reviews left by other users.\n
+- If you'd like to add your own review, simply click on the add button and share your thoughts and experiences.
+
+">
+            </TextView>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:text="4. Adding a Review:\n
+- To add a new review, click on the add button on the review page.\n
+- You will be prompted to provide details about your experience, including ratings and comments.\n
+- Once you've completed your review, click submit to share it with the Travex community.
+
+">
+            </TextView>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

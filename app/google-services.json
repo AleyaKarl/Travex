@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1001150459311",
+    "firebase_url": "https://recyclerview-debcb-default-rtdb.firebaseio.com",
+    "project_id": "recyclerview-debcb",
+    "storage_bucket": "recyclerview-debcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001150459311:android:ab90cd6df1ee8abab3d35a",
+        "android_client_info": {
+          "package_name": "com.example.listplace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6wYWqe8tQ_9YZEGOBCFiu2FKWY5f1ITU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001150459311:android:29ce1185a2dcf8e8b3d35a",
+        "android_client_info": {
+          "package_name": "com.example.recyclerview3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6wYWqe8tQ_9YZEGOBCFiu2FKWY5f1ITU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001150459311:android:f95c2db94dbdb710b3d35a",
+        "android_client_info": {
+          "package_name": "com.example.travex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6wYWqe8tQ_9YZEGOBCFiu2FKWY5f1ITU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

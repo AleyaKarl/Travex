@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaceDetails">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/iVplaceImage"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tVplaceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/iVplaceImage"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/tVplaceDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/tVplaceName"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/tVLocation"
+        android:text="Location"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tVplaceDetails"
+        android:textSize="16sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/tVplaceLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tVLocation"
+        android:layout_marginTop="6dp"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+</RelativeLayout>
